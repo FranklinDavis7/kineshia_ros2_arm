@@ -1,0 +1,11 @@
+# Goal
+geometry_msgs/Point pick
+geometry_msgs/Point place
+---
+# Result
+bool success
+string message
+---
+# Feedback
+string phase
+float32 progress
