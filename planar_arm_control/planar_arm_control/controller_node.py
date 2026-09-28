@@ -70,7 +70,7 @@ class ControllerNode(Node):
         super().__init__("controller_node")
         self.arm = PlanarArm(LINK_LENGTHS)
         # TODO: declare parameters, create publishers/services, timers, state.
-        self.get_logger().info("controller_node started (stub — implement me).")
+        self.get_logger().info("controller_node started")
         self._pending_target = None      # target to pursue after reaching neutral
         self.grasp_pub = self.create_publisher(Bool, "/grasp_state", 10)
         self.current_q = [0.0,0.0,0.0]
