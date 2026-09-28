@@ -1487,9 +1487,7 @@ Possible next steps include:
 ---
 
 # 36. Screenshot
-
-<img width="715" height="936" alt="image" src="https://github.com/user-attachments/assets/e280826c-1ab6-4d91-bfe2-b78b22d44031" />
-
+![ROS 2 Manipulator GUI](Screen_shot.png)
 
 
 # 37. Simulation-to-Real Design
